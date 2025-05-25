@@ -5,11 +5,11 @@ This repository contains the implementation of my thesis **"Machine Learning for
 ## Repository Structure:
 
 - `dataset/`   
-    - CSVs for publically available data   
+    - CSVs for publicly available data   
     - processing scripts   
 - `features/`   
     - TSFEL feature config files for feature enrichment   
-    - Time series seature visualiser   
+    - Time series feature visualiser   
 - `models/`   
     - `day_ahead_bench.py`: Training pipeline for day-ahead Torch models   
     - `intraday_bench.py`: Training pipeline for intraday/imbalance forecasts
@@ -17,11 +17,11 @@ This repository contains the implementation of my thesis **"Machine Learning for
 
 ## Installation
 
-This repo contains scripts rather than an installable package, but requires several other packages listed below.
+This repo contains scripts rather than an installable package, and requires the packages listed below.
 
 ### Requirements
 
-This project requires [timemachine](https://github.com/Zoophish/timemachine) to be installed.
+This project requires the [timemachine](https://github.com/Zoophish/timemachine) package to be installed.
 
 **pip Packages**:
 ```
