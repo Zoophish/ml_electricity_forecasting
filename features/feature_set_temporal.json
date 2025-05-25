@@ -1,0 +1,31 @@
+{
+    "temporal": {
+        "area": {
+            "complexity": "log",
+            "description": "Computes the area under the curve of the signal computed with trapezoid rule.",
+            "function": "tsfel.auc",
+            "parameters": {
+              "fs": 100
+            },
+            "n_features": 1,
+            "use": "yes"
+        },
+        "autocorrelation": {
+            "complexity": "constant",
+            "description": "Computes autocorrelation of the signal.",
+            "function": "tsfel.autocorr",
+            "parameters": "",
+            "n_features": 1,
+            "use": "yes",
+            "tag": "inertial"
+        },
+        "slope": {
+            "complexity": "log",
+            "description": "Computes the slope of the signal by fitting a linear equation to the observed data.",
+            "function": "tsfel.slope",
+            "parameters": "",
+            "n_features": 1,
+            "use": "yes"
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "spectral": {
+        "spectral_centroid": {
+            "complexity": "constant",
+            "description": "Computes the mean value of each spectrogram frequency.",
+            "function": "tsfel.spectral_centroid",
+            "parameters": {
+                "fs": 100
+            },
+            "n_features": "nfreq",
+            "use": "yes"
+        },
+        "fundamental_frequency": {
+            "complexity": "log",
+            "description": "Computes the fundamental frequency.",
+            "function": "tsfel.fundamental_frequency",
+            "parameters": {
+                "fs": 100
+            },
+            "n_features": 1,
+            "use": "yes"
+        },
+        "spectral_kurtosis": {
+            "complexity": "linear",
+            "description": "Computes the flatness of a distribution around its mean value.",
+            "function": "tsfel.spectral_kurtosis",
+            "parameters": {
+                "fs": 100
+            },
+            "n_features": 1,
+            "use": "yes"
+        },
+        "spectral_skewness": {
+            "complexity": "linear",
+            "description": "Computes the asymmetry of a distribution around its mean value.",
+            "function": "tsfel.spectral_skewness",
+            "parameters": {
+                "fs": 100
+            },
+            "n_features": 1,
+            "use": "yes"
+        }
+    }
+}

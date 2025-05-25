@@ -1,0 +1,12 @@
+.vscode/
+__pycache__/
+graveyard/
+forecast_results/
+hyperparam_studies/
+
+market_data.csv
+market_data_types.csv
+
+*.pkl
+*.mdl
+*.code-workspace

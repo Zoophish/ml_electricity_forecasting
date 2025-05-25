@@ -1,0 +1,42 @@
+{
+    "fractal": {
+        "entropy": {
+            "complexity": "log",
+            "description": "Computes the entropy of the signal using the Shannon Entropy.",
+            "function": "tsfel.entropy",
+            "parameters": {
+                "prob": "standard"
+            },
+            "n_features": 1,
+            "use": "yes",
+            "tag": "eeg"
+        },
+        "hurst_exponent": {
+            "complexity": "log",
+            "description": "Computes the entropy of the signal using the Shannon Entropy.",
+            "function": "tsfel.hurst_exponent",
+            "parameters": {
+            },
+            "n_features": 1,
+            "use": "yes"
+        },
+        "higuchi_fractal_dimension": {
+            "complexity": "log",
+            "description": "Computes the entropy of the signal using the Shannon Entropy.",
+            "function": "tsfel.higuchi_fractal_dimension",
+            "parameters": {
+            },
+            "n_features": 1,
+            "use": "yes"
+        },
+        "lempel_ziv": {
+            "complexity": "log",
+            "description": ".",
+            "function": "tsfel.lempel_ziv",
+            "parameters": {
+            },
+            "n_features": 1,
+            "use": "yes"
+        }
+    }
+}

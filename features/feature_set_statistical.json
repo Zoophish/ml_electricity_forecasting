@@ -1,0 +1,40 @@
+{
+    "statistical": {
+        "mean": {
+            "complexity": "log",
+            "description": "",
+            "function": "tsfel.calc_mean",
+            "parameters": {
+            },
+            "use": "yes",
+            "n_features": 1
+        },
+        "std": {
+            "complexity": "log",
+            "description": "",
+            "function": "tsfel.calc_std",
+            "parameters": {
+            },
+            "use": "yes",
+            "n_features": 1
+        },
+        "skewness": {
+            "complexity": "log",
+            "description": "",
+            "function": "tsfel.skewness",
+            "parameters": {
+            },
+            "use": "yes",
+            "n_features": 1
+        },
+        "kurtosis": {
+            "complexity": "log",
+            "description": "",
+            "function": "tsfel.kurtosis",
+            "parameters": {
+            },
+            "use": "yes",
+            "n_features": 1
+        }
+    }
+}
