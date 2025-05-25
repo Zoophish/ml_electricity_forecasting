@@ -58,7 +58,7 @@ An uncertainty-based Bayesian approach inspired by Monte Carlo dropout (Gal & Gh
 
 The hyperparameters of each model were optimised using the Bayesian optimiser from Optuna. The best error metrics for each model are given below.   
 
-| Model   | Dataset | MSE  | MAE (£) | MAPE   |
+| Model   | Dataset | MSE  | MAE (£/MWh) | MAPE   |
 |---------|---------|------|-------- |--------|
 | BiLSTM  | I       | 2.79 | 1.18    | 59.37% |
 | CNNLSTM | I       | 3.85 | 1.34    | 83.41% |
@@ -88,7 +88,7 @@ The two-tailed Diebold-Mariano hypothesis test results for significant forecasti
 
 The mean Gaussian negative log-likelihood and absolute error for the intraday and imbalance price forecasts are given below.
 
-| Model         | Dataset | Target                           | NLL    | MAE (£)  |
+| Model         | Dataset | Target                           | NLL    | MAE (£/MWh)  |
 |---------------|---------|----------------------------------|--------|----------|
 | MCD MLP       | III     | EPEX Intraday Continuous Price   | -1.31  | 1.12     |
 | MCD MLP       | III     | ELEXON Imbalance Price           | -0.824 | 2.19     |
